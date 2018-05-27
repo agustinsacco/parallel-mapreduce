@@ -1,0 +1,5 @@
+node_modules
+js
+.nyc_output
+coverage
+.vs_code
