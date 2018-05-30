@@ -93,7 +93,7 @@
         "member-access": true,
         "new-parens": true,
         "no-construct": true,
-        "no-default-export": true,
+        "no-default-export": false,
         "no-for-in": true,
         "no-function-expression": true,
         "no-inferrable-types": false,

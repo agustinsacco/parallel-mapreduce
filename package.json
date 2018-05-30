@@ -2,7 +2,7 @@
   "name": "parallel-mapreduce",
   "version": "1.0.3",
   "description": "Schedules long running iterations on parallel child processes",
-  "main": "js/index.js",
+  "main": "js/mapReduce.js",
   "scripts": {
     "lint": "tslint -c tslint.json ./lib/{,**/}*.ts ./tests/{,**/}*.ts",
     "test": "mocha --timeout 10000 -r ts-node/register tests/**/*.test.ts",
