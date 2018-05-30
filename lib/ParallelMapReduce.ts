@@ -15,10 +15,12 @@ export class ParallelMapReduce {
         }
         return ParallelMapReduce.instance;
     }
+
     /**
-     *
-     * @param data
-     * @param callback
+     * @param data any[]
+     * @param mapFn Function
+     * @param reduceFn Function
+     * @param options Options
      */
     public async mapReduce(
         data: any[],

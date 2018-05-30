@@ -34,8 +34,6 @@ describe('ParallelMapReduce - Integration', () => {
         sandbox.restore();
     });
 
-   
-
     it('mapReducer() - map & reduce called successfully', async () => {
         const result = await program.mapReduce(data, sum, sum);
         expect(result).to.equal(sum(data));
