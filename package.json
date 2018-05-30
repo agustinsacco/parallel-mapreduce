@@ -1,6 +1,6 @@
 {
   "name": "parallel-mapreduce",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Schedules long running iterations on parallel child processes",
   "main": "js/mapReduce.js",
   "scripts": {
