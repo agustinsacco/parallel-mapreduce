@@ -32,6 +32,7 @@ const calculateSum = (tmp) => {
  * synchronously on the master thread.
  */
 const singularSum = calculateSum(data);
+// outputs 'singularSum: 152'
 console.log('singularSum: ' + singularSum);
 
 const options = {
@@ -52,6 +53,7 @@ const options = {
  */
 mapReduce(data, calculateSum, calculateSum, options)
     .then((result) => {
+        // outputs 'pluralSum: 152'
         console.log('pluralSum: ' + result);
     })
     .catch((error) => {
