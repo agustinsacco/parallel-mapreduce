@@ -25,7 +25,8 @@
     "ts-node": "^6.0.3",
     "tslint": "^5.10.0",
     "tslint-microsoft-contrib": "^5.0.3",
-    "typescript": "^2.8.3"
+    "typescript": "^2.8.3",
+    "version": "^0.1.2"
   },
   "dependencies": {
     "os": "^0.1.1",
