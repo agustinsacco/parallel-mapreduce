@@ -65,3 +65,6 @@ mapReduce(data, calculateSum, calculateSum, options)
 ```
 npm test
 ```
+
+This repository showcases a few [examples](https://github.com/asacc/parallel-mapreduce-examples)
+
